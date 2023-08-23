@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".surveyQuestions_sec_1">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="414dp"
+        android:layout_height="62dp"
+        android:background="#CC0000"
+        android:gravity="center"
+        android:text="AS YOU GET OLDER, YOUR RISK OF DEVELOPING DIABETES GOES UP."
+        android:textColor="#fff"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="410dp"
+        android:layout_height="652dp"
+        android:layout_marginTop="19dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <TextView
+            android:id="@+id/q1_0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1) Select your age group:"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:id="@+id/q1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radioButtonq11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="40-44 years"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/radioButtonq12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="45-54 years"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/radioButtonq13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="55-64 years"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/radioButtonq14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="65-74 years"
+                android:textSize="12sp" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/q4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2) Are you male or female?"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:id="@+id/q2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radioButtonq21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Male"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/radioButtonq22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Female"
+                android:textSize="12sp" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/buttons1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#cc0000"
+            android:text="Continue"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

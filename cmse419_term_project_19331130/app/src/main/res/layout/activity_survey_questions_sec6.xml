@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".surveyQuestions_sec_6">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="414dp"
+        android:layout_height="62dp"
+        android:background="#CC0000"
+        android:gravity="center"
+        android:text="OTHER FACTORS ARE ALSO RELATED TO DEVELOPING DIABETES. "
+        android:textColor="#fff"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="410dp"
+        android:layout_height="652dp"
+        android:layout_marginTop="19dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <TextView
+            android:id="@+id/qaDSASDF1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="12) What is the highest level of education that you have completed?"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:id="@+id/q12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radioButtonq121"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:text="Some high school or less"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/radioButtonq122"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:text="High school diploma"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/radioButtonq123"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:text="Some college or university"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/radioButtonq124"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:text="University or college degree"
+                android:textSize="12sp" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/buttons6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#cc0000"
+            android:text="Continue"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

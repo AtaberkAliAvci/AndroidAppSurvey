@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2surveyQuestions_sec_4">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="412dp"
+        android:layout_height="112dp"
+        android:background="#CC0000"
+        android:gravity="center"
+        android:text="HIGH BLOOD PRESSURE, HIGH BLOOD SUGAR, AND PREGNANCY-RELATED FACTORS ARE ASSOCIATED WITH DIABETES."
+        android:textColor="#fff"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="397dp"
+        android:layout_height="598dp"
+        android:layout_marginTop="19dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <TextView
+            android:id="@+id/q1asdfas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7) have you ever been told by a doctor or nurse that you have high blood pressure OR have you ever taken high blood pressure pills?"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:id="@+id/q7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radioButtonq71"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/radioButtonq72"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No, or do not know"
+                android:textSize="12sp" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/qdsfasd4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="8) have you ever been found to have a high blood sugar either from a blood test, during an illness, or during pregnancy?"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:id="@+id/q8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radioButtonq81"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/radioButtonq82"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No, or do not know"
+                android:textSize="12sp" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/qasdffs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="9) have you ever given birth to a large baby weighing 9 pounds (4.1 kg) or more?"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:id="@+id/q9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radioButtonq91"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/radioButtonq92"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No, or do not know"
+                android:textSize="12sp" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/buttons4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#cc0000"
+            android:text="Continue"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

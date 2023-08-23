@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".surveyQuestions_sec_5">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="414dp"
+        android:layout_height="62dp"
+        android:background="#CC0000"
+        android:gravity="center"
+        android:text="SOME TYPES OF DIABETES RUN IN FAMILIES."
+        android:textColor="#fff"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="408dp"
+        android:layout_height="682dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="1dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <TextView
+            android:id="@+id/wefasdvcsd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10) have any of your blood relatives ever been diagnosed with diabetes?"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/radioButtonq102"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="Father"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/radioButtonq104"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="Children"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/radioButtonq106"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No/Do not know" />
+
+        <RadioButton
+            android:id="@+id/radioButtonq105"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="Others" />
+
+        <RadioButton
+            android:id="@+id/radioButtonq103"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="Brothers/Sisters"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/radioButtonq101"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="Mother"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/qasdfas4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="11) Please check off which of the following ethnic groups your biological (blood) parents belong to:"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Mother"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Father"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="178dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="214dp"
+            android:orientation="horizontal">
+
+            <RadioGroup
+                android:id="@+id/q11_f"
+                android:layout_width="84dp"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/radioButtonq111_f"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:textSize="12sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonq112_f"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:textSize="12sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonq113_f"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:textSize="12sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonq114_f"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:textSize="12sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonq115_f"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonq116_f"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/q11_m"
+                android:layout_width="228dp"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/radioButtonq111_m"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:text="White"
+                    android:textSize="12sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonq112_m"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:text="Aboriginal"
+                    android:textSize="12sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonq113_m"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:text="Black"
+                    android:textSize="12sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonq114_m"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:text="East Asian"
+                    android:textSize="12sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonq115_m"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:text="South Asian" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonq116_m"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Other non-white" />
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttons5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#cc0000"
+            android:text="Continue"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
